@@ -18,6 +18,10 @@ td.profile-photo {
     padding: 10px;
 }
 
+i.email-link {
+    font-size: 2rem;
+}
+
  @media(max-width: 500px) {
     td.email-lg {
         display: none;

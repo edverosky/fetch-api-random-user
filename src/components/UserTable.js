@@ -37,7 +37,7 @@ function UserTable() {
                 <td><img className="profile-photo" src={item.picture.medium} alt='Profile' /></td>
                 <td>{item.name.first}</td>
                 <td className="email-lg"><a href={'mailto:' + item.email}>{item.email}</a></td>
-                <td className="email-sm"><a href={'mailto:' + item.email}><img className="cell-image" src="./favicon.ico" alt='Email'/></a></td>
+                <td className="email-sm"><a href={'mailto:' + item.email}><i className='email-link fas fa-envelope-square'></i></a></td>
                 <td>{item.location.city + ', ' + item.location.state}</td>
               </tr>
             )
