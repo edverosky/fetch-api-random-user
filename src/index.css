@@ -1,0 +1,34 @@
+
+.footer-base {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    height: 300px;
+    background-color: black;
+}
+
+.user-table {
+    max-width: 700px;
+}
+
+td.email-sm {
+    display: none;
+}
+
+td.profile-photo {
+    padding: 10px;
+}
+
+ @media(max-width: 500px) {
+    td.email-lg {
+        display: none;
+    }
+
+    td.email-sm {
+        display: table-cell;
+    }
+
+    .cell-image {
+        vertical-align: top;
+        height: 25px;
+    }
+} 
